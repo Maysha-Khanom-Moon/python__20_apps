@@ -27,3 +27,21 @@ If-else --> check more complex conditions
 #### day 05
 - variables that are only referenced inside a function are implicitly global
 - outside the function it's not possible to access the local variables
+
+
+#### day 06
+- read() --> Reads the entire content of the file as a single string
+- 1st file.read() --> whole file data
+- 2nd file.read() --> empty
+- because no longer read anything else from the file since it has already reached EOF
+
+- cursor always try to read the right side contents. For 1st read it started from the beginnig and stop in the end. For 2nd time cursor already at the end, so nothing left to read!
+
+- readlines() --> Reads the entire file line by line and returns a list of strings, where each element in the list represents a line from the file
+
+- write() --> write entire content as a single string
+- writelines() --> write a list
+
+##### why row string?
+- r'file/path/name...'
+- becuase /n or /t have special meaning, to remove the clash we use row string
