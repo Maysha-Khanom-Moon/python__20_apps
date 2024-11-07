@@ -23,3 +23,7 @@ Match-case --> to match a string out of a predefined number of strings
 
 If-else --> check more complex conditions
 ```
+
+#### day 05
+- variables that are only referenced inside a function are implicitly global
+- outside the function it's not possible to access the local variables
