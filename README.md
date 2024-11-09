@@ -71,3 +71,48 @@ List comprehendions can create a new list by modifiying an existing list
 
 - [expression for item in iterable if condition] --> always return a list
     - new_todos = [item.strip('\n') for item in todos]
+
+
+#### with-context manager
+- recommended
+- The file wile be closed implicitly once all the indented lines have been executed
+    <br>
+```
+with open('file/path', 'mode') as file_variable:
+    ... ...
+```
+
+#### creating and maintain a program
+1. MVP --> minimum viable product
+2. features add
+3. bug fixing
+4. code optimization
+5. back to step 2
+
+
+#### single line if-else
+- checkLen = True if len(password) >= 8 else False
+- checkLower = any(i in lower for i in password)
+
+- The in operator is also known as a "containment test"
+
+- match is more faster than if-elif-else. however, there is limitation to check conditions. Because match just check the value is equal or not, Others are not applicale
+
+
+#### dictionary --> dict
+- {(key, value), ...}
+```
+value: data
+key: metadata
+
+dir(dict)
+
+dict.values() --> returns the list of values
+dict.keys() --> returns the list of keys
+
+dict["key"] = value ; if key is a string
+or,
+dict[number] = value ; if key is a number
+or,
+dict.key = value ; if key is a variable
+```
