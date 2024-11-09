@@ -34,17 +34,27 @@ If-else --> check more complex conditions
 - 1st file.read() --> whole file data
 - 2nd file.read() --> empty
 - because no longer read anything else from the file since it has already reached EOF
+    <br>
 
 - cursor always try to read the right side contents. For 1st read it started from the beginnig and stop in the end. For 2nd time cursor already at the end, so nothing left to read!
+    <br>
 
 - readlines() --> Reads the entire file line by line and returns a list of strings, where each element in the list represents a line from the file
+    <br>
 
 - write() --> write entire content as a single string
 - writelines() --> write a list
+    <br>
+
+- by default: open function mode = 'r'
+    - help(open)
+        <br>
+
 
 ##### why row string?
 - r'file/path/name...'
 - becuase /n or /t have special meaning, to remove the clash we use row string
+- python console always gives row string
 
 
 #### uses of python
