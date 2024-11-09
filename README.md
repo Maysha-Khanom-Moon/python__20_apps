@@ -45,3 +45,19 @@ If-else --> check more complex conditions
 ##### why row string?
 - r'file/path/name...'
 - becuase /n or /t have special meaning, to remove the clash we use row string
+
+
+#### uses of python
+1. web development
+2. data science, ML, AI
+3. automations
+4. general programming
+5. web scraping
+6. others (data analysis, visualization, api building, etc)
+
+
+#### List comprehension
+List comprehendions can create a new list by modifiying an existing list
+
+- [expression for item in iterable if condition] --> always return a list
+    - new_todos = [item.strip('\n') for item in todos]

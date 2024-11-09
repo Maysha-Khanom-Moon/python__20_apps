@@ -27,3 +27,9 @@ a = 'I am a string' \
     'on my own'
 
 print(a)
+
+
+# replace
+filenames = ["1.doc.", "1.repost.", "1.presentation."]
+filenames = [filename.replace('.', '-', 1) + 'txt' for filename in filenames]
+print(filenames)
