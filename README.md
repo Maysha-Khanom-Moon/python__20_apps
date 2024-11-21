@@ -116,3 +116,17 @@ dict[number] = value ; if key is a number
 or,
 dict.key = value ; if key is a variable
 ```
+
+
+#### Try-except
+Used when you want to anticipate a specific kind of error. You can use it to display a friendly error message to the user instead of letting the program end abruptly showing the user an error message that they can hardly understand
+
+```
+try:
+    ... ... ...
+    firstly try this indented under "try"
+    ... ... ...
+
+except SpecificError:
+    ... ... ...
+```
