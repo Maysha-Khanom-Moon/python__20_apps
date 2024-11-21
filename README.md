@@ -130,3 +130,8 @@ try:
 except SpecificError:
     ... ... ...
 ```
+
+#### Custom function
+- Parameters: they are local variables that get a value dynamically when the function is called
+
+- Arguments: assigned to arguments when the function is called.
