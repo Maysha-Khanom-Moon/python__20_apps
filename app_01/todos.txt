@@ -1,3 +1,5 @@
 clean
-Trash
+trash
 fix
+play
+cook
